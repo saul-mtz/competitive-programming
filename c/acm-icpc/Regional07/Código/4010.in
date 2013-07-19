@@ -1,0 +1,24 @@
+5 6 2
+*a***c
+**aa*c
+***aa*
+cbb*a*
+*bb*a*
+a****c
+a**a*c
+***aa*
+*b**a*
+*b****
+4 6 3
+*a***c
+**aa*c
+***aa*
+cbb*ad
+a****c
+a**a*c
+***aa*
+*b**a*
+a****c
+a**a*c
+***aa*
+*b**ad

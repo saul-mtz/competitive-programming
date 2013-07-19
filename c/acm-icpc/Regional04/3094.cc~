@@ -1,0 +1,198 @@
+/**********************************************************
+    Program:    Boolean Expressions
+    Author:     Saúl Martínez Vidals
+    Date:       mié 31 oct 2007
+**********************************************************/
+
+#include <iostream>
+#include <sstream>
+#include <stack>
+
+using namespace std;
+
+/* constantes para identificar a los elementos del alfabeto */
+const char FALSO = 0;
+const char VERDADERO = 1;
+const char NEGACION = 2;
+const char CONJUNCION = 3;
+const char DISYUNCION = 4;
+const char PARENTESIS1 = 5;
+const char PARENTESIS2 = 6;
+const char ESPACIO = 7;
+const char FIN = 8;
+
+/* variables globales */
+stack<char> pila;                           /* pila para la evaluacion de la expresion*/
+istringstream buffer;                       /* buffer para lectura de los datos */
+char actual, siguiente;
+
+/* prototipos de funciones */
+char alex();
+void expresion();
+void inmediato();
+void negacion();
+void parentesis();
+void operacion();
+char evalua();
+
+
+char imprime()
+{
+    char c;
+    while(!pila.empty())
+    {
+        c = pila.top();
+        pila.pop();
+        switch(c)
+        {
+            case FALSO:         cout << 'F' << endl;
+                                break;
+            case VERDADERO:     cout << 'V' << endl;
+                                break;
+            case NEGACION:      cout << '!' << endl;
+                                break;
+            case CONJUNCION:    cout << '&' << endl;
+                                break;
+            case DISYUNCION:    cout << '|' << endl;
+                                break;
+            default:            cout << '$' << endl;
+        }
+    }
+    return 0;
+}
+
+/* función principal */
+int main()
+{
+    short k = 1;
+    char resultado;
+    string cadena;
+    
+	while(cin >> cadena)
+	{
+	    buffer.clear();
+        buffer.str(cadena);
+        expresion();
+/*        resultado = evalua();
+        if(resultado)
+            resultado = 'V';
+        else
+            resultado = 'F';*/
+        resultado = 'F';
+        cout << "Expression " << k << ": " << resultado << endl;
+		k ++;
+    }
+	return 0;
+}
+
+/* lee un caracter de la entrada estándar y regresa el tipo de dato que es */
+char alex()
+{
+    char c;
+    
+    if(buffer >> c)
+    {
+        switch(c)
+        {
+            case 'F':   return FALSO;
+            case 'V':   return VERDADERO;
+            case '!':   return NEGACION;
+            case '&':   return CONJUNCION;
+            case '|':   return DISYUNCION;
+            case '(':   return PARENTESIS1;
+            case ')':   return PARENTESIS2;
+            case ' ':   return ESPACIO;
+        }
+    }
+    else
+        return FIN;
+}
+
+/* regla de producción que es el simbolo distinguido */
+void expresion()
+{   
+    actual = alex();
+    
+    if(actual == FIN)
+        return;
+    else if((actual == CONJUNCION) || (actual == DISYUNCION))
+        operacion();
+    else
+        inmediato();
+    expresion();
+}
+
+void inmediato()
+{
+    switch(actual)
+    {
+        case FALSO:         pila.push(FALSO);
+                            break;
+        case VERDADERO:     pila.push(VERDADERO);
+                            break;
+        case NEGACION:      negacion();
+                            break;
+        case PARENTESIS1:   parentesis();
+                            break;
+        case PARENTESIS2:   break;
+    }
+}
+
+/* regla para la negación */
+void negacion()
+{
+    inmediato();
+    pila.push(NEGACION);
+}
+
+/* regla para las expresiones con parentesis */
+void parentesis()
+{
+    expresion();
+}
+
+/* operacion binaria, la conjunción tiene mayor prioridad que la disyunción */
+void operacion()
+{
+    char tipo_operacion;
+    
+    tipo_operacion = actual;
+    if(tipo_operacion == CONJUNCION)
+    {
+        actual = alex();
+        inmediato();
+    }
+    else
+        expresion();
+    pila.push(tipo_operacion);
+}
+
+/* evalua la expresion almacenada en la pila en notación polaca inversa */
+char evalua()
+{
+    char operador1, operador2, operacion;
+    
+    operacion = pila.top();
+    pila.pop();
+
+    while(!pila.empty())
+    {
+        operador1 = pila.top();
+        pila.pop();
+        
+        if(operacion == NEGACION)
+            operador1 = !operador1;
+        else
+        {
+            operador2 = operacion;
+            operacion = pila.top();
+            pila.pop();
+            if(operacion == CONJUNCION)
+                operador1 = (operador1 && operador2);
+            else
+                operador1 = (operador1 || operador2);
+        }
+    }
+    return operador1;
+}
+
