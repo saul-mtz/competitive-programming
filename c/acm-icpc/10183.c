@@ -1,13 +1,13 @@
-/**********************************************************
-	Program:    How many Fibs?
-	Author:		Saúl Martínez Vidals
-	Date:		30-04-2007
-***********************************************************
-	@JUDGE_ID: 63787VV 10183 C "Dyamic programming"
-	Link: 
-***********************************************************
-					SOLVED !!!
-**********************************************************/
+/**
+ * How many Fibs?
+ * @author SaÃºl MartÃ­nez Vidals
+ * @since  30-Apr-2007
+ * 
+ * @link http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1124
+ * @link http://tinyurl.com/ndcddeo
+ * 
+ * @JUDGE_ID: 63787VV 10183 C "Dyamic programming"
+ */
 
 #include <stdio.h>
 #include <string.h>
