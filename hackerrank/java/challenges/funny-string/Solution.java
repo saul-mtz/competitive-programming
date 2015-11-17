@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * @link https://www.hackerrank.com/challenges/funny-string
+ */
 public class Solution {
 
     public static void main(String[] args) {
