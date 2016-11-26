@@ -7,3 +7,4 @@
 *  [Data Structures](https://www.hackerrank.com/domains/data-structures)
   * [Trie](https://www.hackerrank.com/domains/data-structures/trie)
     * [Contacts](https://www.hackerrank.com/challenges/contacts) [[src](HackerRank/Challenges/Data\ Structures/Trie/Contacts/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
+    * [No Prefix Set](https://www.hackerrank.com/challenges/no-prefix-set) [[src](HackerRank/Challenges/Data\ Structures/Trie/No\ Prefix\ Set/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
