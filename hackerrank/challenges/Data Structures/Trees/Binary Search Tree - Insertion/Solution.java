@@ -1,3 +1,6 @@
+/**
+ * @see https://www.hackerrank.com/challenges/binary-search-tree-insertion
+ */
 static Node Insert(Node n, int value) {
     if (null == n) {
         n = new Node();

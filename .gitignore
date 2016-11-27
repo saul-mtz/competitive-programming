@@ -149,4 +149,4 @@ crashlytics-build.properties
 # Created by .ignore support plugin (hsz.mobi)
 
 # Solution template
-src/Solution.java
+/src/Solution.java
