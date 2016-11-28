@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * œlink https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor
+ */
 public class Solution {
 
     static Node lca(Node root, int a, int b) {

@@ -7,6 +7,10 @@
 *  [Data Structures](https://www.hackerrank.com/domains/data-structures)
   * [Binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree)
     * [Insertion](https://www.hackerrank.com/challenges/binary-search-tree-insertion) [[src](HackerRank/Challenges/Data\ Structures/Trees/Binary\ Search\ Tree\ -\ Insertion/Solution.java)]
+    * [Lowest Common Ancestor](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor) [[src](HackerRank/Challenges/Data\ Structures/Trees/Binary\ Search\ Tree\ -\ Insertion/Solution.java)]
   * [Trie](https://www.hackerrank.com/domains/data-structures/trie)
     * [Contacts](https://www.hackerrank.com/challenges/contacts) [[src](HackerRank/Challenges/Data\ Structures/Trie/Contacts/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
     * [No Prefix Set](https://www.hackerrank.com/challenges/no-prefix-set) [[src](HackerRank/Challenges/Data\ Structures/Trie/No\ Prefix\ Set/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
+## [Contests](https://www.hackerrank.com/contests)
+* [Week of Code 26](https://www.hackerrank.com/contests/w26)
+  * [Army Game](https://www.hackerrank.com/contests/w26/challenges/game-with-cells) [[src](HackerRank/Contests/Week\ of\ Code\ 26/Army\ Game/Solution.java)]

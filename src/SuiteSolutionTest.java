@@ -11,7 +11,7 @@ import org.junit.Test;
 /**
  * @author saul.mtz.v
  */
-public class TestSolution {
+public class SuiteSolutionTest {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
