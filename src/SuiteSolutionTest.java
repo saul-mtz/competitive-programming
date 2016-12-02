@@ -39,7 +39,7 @@ public class SuiteSolutionTest {
                 boolean outFileExists = new File(inputFilesDir, outputFileName).exists();
 
                 if (outFileExists) {
-                    //System.out.println("Testing " + entry.getFileName());
+                    System.err.println("Testing " + entry.getFileName());
 
                     // input data
                     String content = new String(Files.readAllBytes(entry));

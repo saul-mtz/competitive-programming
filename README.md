@@ -16,3 +16,4 @@
 * [Week of Code 26](https://www.hackerrank.com/contests/w26)
   * [Army Game](https://www.hackerrank.com/contests/w26/challenges/game-with-cells) [[src](HackerRank/Contests/Week\ of\ Code\ 26/Army\ Game/Solution.java)]
   * [Best Divisor](https://www.hackerrank.com/contests/w26/challenges/best-divisor) [[src](HackerRank/Contests/Week\ of\ Code\ 26/Best\ Divisor/Solution.java)]
+  * [Twins](https://www.hackerrank.com/contests/w26/challenges/twins) [[src](HackerRank/Contests/Week\ of\ Code\ 26/Twins/Solution.java)]
