@@ -9,7 +9,7 @@
     * [Insertion](https://www.hackerrank.com/challenges/binary-search-tree-insertion) [[src](HackerRank/Challenges/Data\ Structures/Trees/Binary\ Search\ Tree\ -\ Insertion/Solution.java)]
     * [Lowest Common Ancestor](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor) [[src](HackerRank/Challenges/Data\ Structures/Trees/Binary\ Search\ Tree\ -\ Lowest\ Common\ Ancestor/Solution.java)]
   * [Binary Heap](https://en.wikipedia.org/wiki/Binary_heap)
-    * [Find the Running Median](https://www.hackerrank.com/challenges/find-the-running-median) [[src](HackerRank/Challenges/Data Structures/Heap/Find the Running Median/Solution.java)]
+    * [Find the Running Median](https://www.hackerrank.com/challenges/find-the-running-median) [[src1](HackerRank/Challenges/Data Structures/Heap/Find the Running Median/Solution.java)] [[src2](HackerRank/Challenges/Data Structures/Heap/Find the Running Median/Solution2.java)]
     * [Jesse and Cookies](https://www.hackerrank.com/challenges/jesse-and-cookies) [[src](HackerRank/Challenges/Data\ Structures/Heap/Jesse\ and\ Cookies/Solution.java)]
     * [QHEAP1](https://www.hackerrank.com/challenges/qheap1) [[src](HackerRank/Challenges/Data\ Structures/Heap/QHEAP1/Solution.java)]
   * [Trie](https://www.hackerrank.com/domains/data-structures/trie)
