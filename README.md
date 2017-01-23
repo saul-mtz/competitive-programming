@@ -19,9 +19,10 @@
   * [Trie](https://www.hackerrank.com/domains/data-structures/trie)
     * [Contacts](https://www.hackerrank.com/challenges/contacts) [[src](HackerRank/Challenges/Data\ Structures/Trie/Contacts/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
     * [No Prefix Set](https://www.hackerrank.com/challenges/no-prefix-set) [[src](HackerRank/Challenges/Data\ Structures/Trie/No\ Prefix\ Set/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
+  * [Warmup](https://www.hackerrank.com/domains/algorithms/warmup)
+    * [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets) [[src](Challenges/Warmup/Compare\ the\ Triplets/Solution.java)]
 
 ## [Contests](https://www.hackerrank.com/contests)
-* [Week of Code 26](https://www.hackerrank.com/contests/w26)
-  * [Army Game](https://www.hackerrank.com/contests/w26/challenges/game-with-cells) [[src](HackerRank/Contests/Week\ of\ Code\ 26/Army\ Game/Solution.java)]
-  * [Best Divisor](https://www.hackerrank.com/contests/w26/challenges/best-divisor) [[src](HackerRank/Contests/Week\ of\ Code\ 26/Best\ Divisor/Solution.java)]
-  * [Twins](https://www.hackerrank.com/contests/w26/challenges/twins) [[src](HackerRank/Contests/Week\ of\ Code\ 26/Twins/Solution.java)]
+* [Week of Code 26](https://www.hackerrank.com/contests/w26) [[src](HackerRank/Contests/Week\ of\ Code\ 26)]
+* [Week of Code 27](https://www.hackerrank.com/contests/w27) [[src](HackerRank/Contests/Week\ of\ Code\ 27)]
+* [Week of Code 28](https://www.hackerrank.com/contests/w28) [[src](HackerRank/Contests/Week\ of\ Code\ 28)]
