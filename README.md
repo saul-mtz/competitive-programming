@@ -19,10 +19,16 @@
   * [Trie](https://www.hackerrank.com/domains/data-structures/trie)
     * [Contacts](https://www.hackerrank.com/challenges/contacts) [[src](HackerRank/Challenges/Data\ Structures/Trie/Contacts/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
     * [No Prefix Set](https://www.hackerrank.com/challenges/no-prefix-set) [[src](HackerRank/Challenges/Data\ Structures/Trie/No\ Prefix\ Set/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
+* [Implementation](https://www.hackerrank.com/domains/algorithms/implementation)
+  * [Find Digits](https://www.hackerrank.com/challenges/find-digits) [[src](HackerRank/Challenges/Algorithms/Implementation/Find\ Digits/Solution.java)]
+  * [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant) [[src](HackerRank/Challenges/Algorithms/Implementation/Sock\ Merchant/Solution.java)]
+  * [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search) [[src](HackerRank/Challenges/Algorithms/Implementation/The\ Grid\ Search/Solution.java)]
+  * [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree) [[src](HackerRank/Challenges/Algorithms/Implementation/Utopian\ Tree/Solution.java)]
 * [Strings](https://www.hackerrank.com/domains/algorithms/strings)
   * [CamelCase](https://www.hackerrank.com/challenges/camelcase) [[src](HackerRank/Challenges/Algorithms/Strings/CamelCase/Solution.java)]
   * [Funny String](https://www.hackerrank.com/challenges/funny-string) [[src](HackerRank/Challenges/Algorithms/Strings/Funny\ String/Solution.java)]
   * [Pangrams](https://www.hackerrank.com/challenges/pangrams) [[src](HackerRank/Challenges/Algorithms/Strings/Pangrams/Solution.java)]
+  * [Sherlock and Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string) [[src](HackerRank/Challenges/Algorithms/Strings/Sherlock\ and\ Valid\ String/Solution.java)]
 * [Warmup](https://www.hackerrank.com/domains/algorithms/warmup)
   * [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets) [[src](Challenges/Warmup/Compare\ the\ Triplets/Solution.java)]
 
