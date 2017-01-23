@@ -19,8 +19,12 @@
   * [Trie](https://www.hackerrank.com/domains/data-structures/trie)
     * [Contacts](https://www.hackerrank.com/challenges/contacts) [[src](HackerRank/Challenges/Data\ Structures/Trie/Contacts/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
     * [No Prefix Set](https://www.hackerrank.com/challenges/no-prefix-set) [[src](HackerRank/Challenges/Data\ Structures/Trie/No\ Prefix\ Set/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
-  * [Warmup](https://www.hackerrank.com/domains/algorithms/warmup)
-    * [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets) [[src](Challenges/Warmup/Compare\ the\ Triplets/Solution.java)]
+* [Strings](https://www.hackerrank.com/domains/algorithms/strings)
+  * [CamelCase](https://www.hackerrank.com/challenges/camelcase) [[src](HackerRank/Challenges/Algorithms/Strings/CamelCase/Solution.java)]
+  * [Funny String](https://www.hackerrank.com/challenges/funny-string) [[src](HackerRank/Challenges/Algorithms/Strings/Funny\ String/Solution.java)]
+  * [Pangrams](https://www.hackerrank.com/challenges/pangrams) [[src](HackerRank/Challenges/Algorithms/Strings/Pangrams/Solution.java)]
+* [Warmup](https://www.hackerrank.com/domains/algorithms/warmup)
+  * [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets) [[src](Challenges/Warmup/Compare\ the\ Triplets/Solution.java)]
 
 ## [Contests](https://www.hackerrank.com/contests)
 * [Week of Code 26](https://www.hackerrank.com/contests/w26) [[src](HackerRank/Contests/Week\ of\ Code\ 26)]
