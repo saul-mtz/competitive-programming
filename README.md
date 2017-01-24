@@ -4,7 +4,7 @@
 
 # [HackerRank](https://www.hackerrank.com)
 ## [Challenges](https://www.hackerrank.com/challenges)
-*  [Data Structures](https://www.hackerrank.com/domains/data-structures)
+* [Data Structures](https://www.hackerrank.com/domains/data-structures)
   * [Binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree)
     * [Insertion](https://www.hackerrank.com/challenges/binary-search-tree-insertion) [[src](HackerRank/Challenges/Data\ Structures/Trees/Binary\ Search\ Tree\ -\ Insertion/Solution.java)]
     * [Lowest Common Ancestor](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor) [[src](HackerRank/Challenges/Data\ Structures/Trees/Binary\ Search\ Tree\ -\ Lowest\ Common\ Ancestor/Solution.java)]
@@ -19,6 +19,8 @@
   * [Trie](https://www.hackerrank.com/domains/data-structures/trie)
     * [Contacts](https://www.hackerrank.com/challenges/contacts) [[src](HackerRank/Challenges/Data\ Structures/Trie/Contacts/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
     * [No Prefix Set](https://www.hackerrank.com/challenges/no-prefix-set) [[src](HackerRank/Challenges/Data\ Structures/Trie/No\ Prefix\ Set/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
+* [Graph Theory](https://www.hackerrank.com/domains/algorithms/graph-theory)
+  * [Journey to the Moon](https://www.hackerrank.com/challenges/journey-to-the-moon) [[src](HackerRank/Challenges/Algorithms/Graph\ Theory/Journey\ to\ the\ Moon/Solution.java)]
 * [Implementation](https://www.hackerrank.com/domains/algorithms/implementation)
   * [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs) [[src](HackerRank/Challenges/Algorithms/Implementation/Divisible\ Sum\ Pairs/Solution.java)]
   * [Find Digits](https://www.hackerrank.com/challenges/find-digits) [[src](HackerRank/Challenges/Algorithms/Implementation/Find\ Digits/Solution.java)]
