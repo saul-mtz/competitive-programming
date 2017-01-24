@@ -20,6 +20,7 @@
     * [Contacts](https://www.hackerrank.com/challenges/contacts) [[src](HackerRank/Challenges/Data\ Structures/Trie/Contacts/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
     * [No Prefix Set](https://www.hackerrank.com/challenges/no-prefix-set) [[src](HackerRank/Challenges/Data\ Structures/Trie/No\ Prefix\ Set/Solution.java)][[trie](https://github.com/saul-mtz/ds-algo/blob/master/src/main/java/common/tree/Trie.java)]
 * [Implementation](https://www.hackerrank.com/domains/algorithms/implementation)
+  * [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs) [[src](HackerRank/Challenges/Algorithms/Implementation/Divisible\ Sum\ Pairs/Solution.java)]
   * [Find Digits](https://www.hackerrank.com/challenges/find-digits) [[src](HackerRank/Challenges/Algorithms/Implementation/Find\ Digits/Solution.java)]
   * [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/forum) [[src](HackerRank/Challenges/Algorithms/Implementation/Mini-Max\ Sum/Solution.java)]
   * [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant) [[src](HackerRank/Challenges/Algorithms/Implementation/Sock\ Merchant/Solution.java)]
