@@ -32,6 +32,7 @@
   * [CamelCase](https://www.hackerrank.com/challenges/camelcase) [[src](HackerRank/Challenges/Algorithms/Strings/CamelCase/Solution.java)]
   * [Funny String](https://www.hackerrank.com/challenges/funny-string) [[src](HackerRank/Challenges/Algorithms/Strings/Funny\ String/Solution.java)]
   * [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration) [[src](HackerRank/Challenges/Algorithms/Algorithms/Strings/Mars\ Exploration/Solution.java)]
+  * [Matrix Layer Rotation](https://www.hackerrank.com/challenges/matrix-rotation-algo) [[src](HackerRank/Challenges/Algorithms/Implementation/Matrix Layer Rotation/Solution.java)]
   * [Pangrams](https://www.hackerrank.com/challenges/pangrams) [[src](HackerRank/Challenges/Algorithms/Strings/Pangrams/Solution.java)]
   * [Sherlock and Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string) [[src](HackerRank/Challenges/Algorithms/Strings/Sherlock\ and\ Valid\ String/Solution.java)]
 * [Warmup](https://www.hackerrank.com/domains/algorithms/warmup)
